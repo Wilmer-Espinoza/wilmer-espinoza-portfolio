@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Portafolio de Wilmer Espinoza: desarrollo web, análisis de datos, tecnología educativa y soluciones digitales."
+    >
+    <meta name="author" content="Wilmer Espinoza">
+    <meta name="theme-color" content="#ffffff">
+    <title>Wilmer Espinoza | Portafolio de Ingeniería de Software</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/styles.css?v=20260926-4">
+    <script src="js/script.js?v=20260926-4" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="site-header" data-header>
+      <div class="navbar container">
+        <a class="navbar__brand" href="#inicio" aria-label="Ir al inicio">
+          <span class="navbar__monogram" aria-hidden="true">WE</span>
+          <span class="navbar__identity">
+            <span class="navbar__name">Wilmer Espinoza</span>
+            <span class="navbar__career">Software Engineering</span>
+          </span>
+        </a>
+
+        <nav class="navbar__desktop-nav" aria-label="Navegación principal">
+          <a class="navbar__link" href="#sobre-mi">Sobre mí</a>
+          <a class="navbar__link" href="#habilidades">Habilidades</a>
+          <a class="navbar__link" href="#proyectos">Proyectos</a>
+          <a class="navbar__link" href="#design-system">Design System</a>
+          <a class="navbar__link" href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="navbar__actions">
+          <a
+            class="icon-button navbar__desktop-action"
+            href="https://github.com/Wilmer-Espinoza"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visitar el GitHub de Wilmer Espinoza"
+          >
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.57-.29-5.27-1.29-5.27-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.2-1.5 3.16-1.18 3.16-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.83 1.19 3.09 0 4.4-2.7 5.38-5.28 5.67.42.36.78 1.07.78 2.15v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/>
+            </svg>
+          </a>
+
+          <button
+            class="icon-button navbar__desktop-action"
+            type="button"
+            data-theme-toggle
+            aria-label="Activar modo oscuro"
+          >
+            <svg class="theme-icon theme-icon--moon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M20.8 15.3A9 9 0 0 1 8.7 3.2a9 9 0 1 0 12.1 12.1Z"/>
+            </svg>
+            <svg class="theme-icon theme-icon--sun" aria-hidden="true" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/>
+            </svg>
+          </button>
+
+          <button
+            class="icon-button navbar__menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu-movil"
+            aria-label="Abrir menú de navegación"
+            data-menu-button
+          >
+            <svg class="menu-icon menu-icon--open" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            <svg class="menu-icon menu-icon--close" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="m6 6 12 12M18 6 6 18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="menu-movil" data-mobile-menu hidden>
+        <nav class="mobile-menu__content container" aria-label="Navegación móvil">
+          <a class="mobile-menu__link" href="#sobre-mi">Sobre mí</a>
+          <a class="mobile-menu__link" href="#habilidades">Habilidades</a>
+          <a class="mobile-menu__link" href="#proyectos">Proyectos</a>
+          <a class="mobile-menu__link" href="#design-system">Design System</a>
+          <a class="mobile-menu__link" href="#contacto">Contacto</a>
+
+          <div class="mobile-menu__utilities">
+            <a
+              class="mobile-menu__utility"
+              href="https://github.com/Wilmer-Espinoza"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.57-.29-5.27-1.29-5.27-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.2-1.5 3.16-1.18 3.16-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.83 1.19 3.09 0 4.4-2.7 5.38-5.28 5.67.42.36.78 1.07.78 2.15v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/>
+              </svg>
+              GitHub
+            </a>
+
+            <button class="mobile-menu__utility" type="button" data-theme-toggle>
+              <svg class="theme-icon theme-icon--moon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M20.8 15.3A9 9 0 0 1 8.7 3.2a9 9 0 1 0 12.1 12.1Z"/>
+              </svg>
+              <svg class="theme-icon theme-icon--sun" aria-hidden="true" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/>
+              </svg>
+              <span data-theme-text>Modo oscuro</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__layout container">
+          <div class="hero__content">
+            <h1 class="hero__title" id="hero-title">
+              <span class="hero__greeting">Hola, soy</span>
+              <span class="hero__name">Wilmer<br>Espinoza.</span>
+            </h1>
+
+            <div class="hero__description">
+              <p class="hero__lead">
+                Estudiante de Ingeniería de Software interesado en el desarrollo web, análisis de
+                datos y creación de soluciones digitales orientadas a resolver problemas reales.
+              </p>
+              <p class="hero__supporting-text">
+                Tengo un interés especial en la tecnología aplicada al ámbito académico, la mejora
+                de procesos educativos y el uso de datos para comprender y mejorar resultados
+                académicos.
+              </p>
+            </div>
+
+            <div class="hero__actions" aria-label="Acciones principales">
+              <a class="button button--primary" href="#proyectos">Ver proyectos</a>
+              <a class="button button--secondary" href="#contacto">Contactarme</a>
+            </div>
+          </div>
+
+          <figure class="hero__photo-frame">
+            <img
+              class="hero__photo"
+              src="assets/images/wilmer-profile.jpg"
+              alt="Fotografía de Wilmer Espinoza"
+              width="1200"
+              height="1500"
+            >
+          </figure>
+
+          <dl class="hero__metadata" aria-label="Información académica y profesional">
+            <div class="hero__metadata-item">
+              <dt>Ingeniería</dt>
+              <dd>Software</dd>
+              <dd class="hero__metadata-detail">UNEMI</dd>
+            </div>
+            <div class="hero__metadata-item">
+              <dt>Desarrollo</dt>
+              <dd>Web · Software · Datos</dd>
+            </div>
+            <div class="hero__metadata-item">
+              <dt>Interés</dt>
+              <dd>Tecnología · Educación</dd>
+              <dd class="hero__metadata-detail">Innovación</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section about" id="sobre-mi" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow">02 — Sobre mí</p>
+            <h2 class="section-heading__title" id="about-title">Sobre mí</h2>
+          </header>
+
+          <div class="about__layout">
+            <div class="about__copy">
+              <p>
+                Actualmente curso Ingeniería de Software en la Universidad Estatal de Milagro. Me
+                interesa desarrollar soluciones digitales que combinen programación, análisis de
+                información, diseño y una experiencia de usuario clara.
+              </p>
+              <p>
+                Tengo especial interés en la aplicación de la tecnología en contextos académicos y
+                educativos, especialmente en iniciativas que permitan mejorar procesos, analizar
+                resultados, comprender el comportamiento académico y apoyar la toma de decisiones
+                mediante datos.
+              </p>
+              <p>
+                También cuento con conocimientos en diseño gráfico y
+                producción multimedia, lo que me permite abordar los proyectos desde una
+                perspectiva técnica y visual.
+              </p>
+
+              <ul class="tag-list about__tags" aria-label="Áreas de interés profesional">
+                <li>Desarrollo Web</li>
+                <li>Análisis de datos</li>
+                <li>UX/UI</li>
+                <li>Tecnología educativa</li>
+                <li>Producción multimedia</li>
+              </ul>
+            </div>
+
+            <aside class="education-panel" aria-labelledby="education-title">
+              <p class="editorial-label" id="education-title">Formación académica</p>
+              <article class="education-card">
+                <span class="education-card__icon" aria-hidden="true">IS</span>
+                <div>
+                  <h3>Ingeniería de Software</h3>
+                  <p class="education__institution">Universidad Estatal de Milagro</p>
+                  <p class="education__university">UNEMI</p>
+                  <p class="education__date"><span aria-hidden="true"></span>2022 — Actualidad</p>
+                </div>
+              </article>
+              <div class="education-note">
+                Orientado a combinar ingeniería de software, análisis de datos y diseño para
+                construir soluciones digitales con impacto real.
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="habilidades" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow">03 — Habilidades</p>
+            <h2 class="section-heading__title" id="skills-title">Habilidades</h2>
+            <p class="section-heading__description">
+              Tecnologías y herramientas que utilizo para desarrollar, analizar y diseñar
+              soluciones digitales.
+            </p>
+          </header>
+
+          <div class="skills__grid">
+            <article class="skill-group skill-group--frontend">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Frontend</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">HTML5</li>
+                <li class="skill-badge">CSS3</li>
+                <li class="skill-badge">JavaScript</li>
+              </ul>
+            </article>
+            <article class="skill-group skill-group--backend">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Backend</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">Python</li>
+                <li class="skill-badge">Django</li>
+              </ul>
+            </article>
+            <article class="skill-group skill-group--databases">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Bases de datos</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">SQL</li>
+                <li class="skill-badge">PostgreSQL</li>
+                <li class="skill-badge">SQL Server</li>
+              </ul>
+            </article>
+            <article class="skill-group skill-group--data">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Data &amp; BI</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">Power BI</li>
+                <li class="skill-badge">Análisis de datos</li>
+                <li class="skill-badge">KPIs</li>
+                <li class="skill-badge">Visualización de información</li>
+              </ul>
+            </article>
+            <article class="skill-group skill-group--design">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Diseño &amp; Multimedia</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">Figma</li>
+                <li class="skill-badge">Adobe Photoshop</li>
+                <li class="skill-badge">Adobe Illustrator</li>
+                <li class="skill-badge">Adobe Premiere Pro</li>
+                <li class="skill-badge">OBS Studio</li>
+              </ul>
+            </article>
+            <article class="skill-group skill-group--tools">
+              <h3><span class="skill-group__dot" aria-hidden="true"></span>Herramientas</h3>
+              <ul class="skill-list">
+                <li class="skill-badge">Git</li>
+                <li class="skill-badge">GitHub</li>
+                <li class="skill-badge">Visual Studio Code</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="proyectos" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow">04 — Proyectos</p>
+            <h2 class="section-heading__title" id="projects-title">Proyectos destacados</h2>
+            <p class="section-heading__description">
+              Una selección de proyectos donde combino desarrollo, datos y diseño para resolver
+              necesidades reales.
+            </p>
+          </header>
+
+          <div class="project-filters" aria-label="Filtrar proyectos">
+            <button class="filter-button is-active" type="button" data-project-filter="all" aria-pressed="true">Todos</button>
+            <button class="filter-button" type="button" data-project-filter="web" aria-pressed="false">Web</button>
+            <button class="filter-button" type="button" data-project-filter="datos" aria-pressed="false">Datos</button>
+            <button class="filter-button" type="button" data-project-filter="academico" aria-pressed="false">Académico</button>
+          </div>
+
+          <p class="visually-hidden" data-filter-status aria-live="polite">3 proyectos visibles.</p>
+
+          <div class="projects__grid">
+            <article class="project-card" data-project-card data-category="web">
+              <figure class="project-card__figure project-card__figure--afu">
+                <img
+                  src="assets/images/projects/Sistema-ventas-afu.png"
+                  alt="Dashboard del Sistema de Gestión Comercial AFU"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="project-card__body">
+                <p class="project-card__category">Web · Gestión</p>
+                <h3>Sistema de Gestión Comercial AFU</h3>
+                <p class="project-card__description">
+                  Plataforma web diseñada para centralizar la gestión de interesados, ventas,
+                  seguimiento comercial, pagos y análisis de resultados.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologías principales">
+                  <li>TypeScript</li>
+                  <li>JavaScript</li>
+                  <li>Supabase</li>
+                </ul>
+                <div class="project-card__actions">
+                  <button class="button button--primary project-card__primary" type="button" data-project-details="afu">Más información</button>
+                  <a class="project-card__secondary" href="https://ventasafu.vercel.app/" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-project-card data-category="web">
+              <figure class="project-card__figure">
+                <img
+                  src="assets/images/projects/smartrecipe-poster.jpg"
+                  alt="Vista previa de la interfaz de SmartRecipe"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="project-card__body">
+                <p class="project-card__category">Web · Inteligencia artificial</p>
+                <h3>SmartRecipe</h3>
+                <p class="project-card__description">
+                  Aplicación diseñada para identificar ingredientes mediante imágenes y utilizar
+                  los resultados obtenidos para recomendar recetas.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologías principales">
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>JavaScript</li>
+                  <li>YOLOv8</li>
+                </ul>
+                <div class="project-card__actions">
+                  <button class="button button--primary project-card__primary" type="button" data-project-details="smartrecipe">Más información</button>
+                  <a class="project-card__secondary" href="https://github.com/Wilmer-Espinoza/RECETAI" target="_blank" rel="noopener noreferrer">Ver repositorio <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-project-card data-category="datos academico">
+              <figure class="project-card__figure">
+                <img
+                  src="assets/images/projects/academic-insights.png"
+                  alt="Dashboard de analítica de admisión de AFU Academic Insights"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="project-card__body">
+                <p class="project-card__category">Datos · Académico</p>
+                <h3>AFU Academic Insights</h3>
+                <p class="project-card__description">
+                  Sistema de análisis de datos orientado al seguimiento del rendimiento académico,
+                  permanencia estudiantil, desempeño docente y resultados de formación.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologías principales">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Excel</li>
+                </ul>
+                <div class="project-card__actions">
+                  <button class="button button--primary project-card__primary" type="button" data-project-details="academic-insights">Más información</button>
+                  <a class="project-card__secondary" href="https://github.com/Wilmer-Espinoza/AFU-Academic-Insights" target="_blank" rel="noopener noreferrer">Ver repositorio <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section design-system" id="design-system" aria-labelledby="design-system-title">
+        <div class="container">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow">05 — Design System</p>
+            <h2 class="section-heading__title" id="design-system-title">Design System</h2>
+            <p class="section-heading__description">
+              Documentación interna de tokens, tipografía, espaciado y componentes utilizados en
+              este portafolio.
+            </p>
+          </header>
+
+          <div class="design-tabs" role="tablist" aria-label="Categorías del Design System">
+            <button class="design-tab is-active" id="design-tab-colores" type="button" role="tab" aria-selected="true" aria-controls="design-panel-colores" data-design-tab="colores">Colores</button>
+            <button class="design-tab" id="design-tab-tipografia" type="button" role="tab" aria-selected="false" aria-controls="design-panel-tipografia" tabindex="-1" data-design-tab="tipografia">Tipografía</button>
+            <button class="design-tab" id="design-tab-espaciado" type="button" role="tab" aria-selected="false" aria-controls="design-panel-espaciado" tabindex="-1" data-design-tab="espaciado">Espaciado</button>
+            <button class="design-tab" id="design-tab-componentes" type="button" role="tab" aria-selected="false" aria-controls="design-panel-componentes" tabindex="-1" data-design-tab="componentes">Componentes</button>
+          </div>
+
+          <div class="system-block design-panel" id="design-panel-colores" role="tabpanel" aria-labelledby="design-tab-colores" data-design-panel="colores">
+            <div class="visually-hidden">
+              <p class="system-block__index">01</p>
+              <h3 id="colors-title">Colores</h3>
+            </div>
+            <ul class="color-grid">
+              <li class="color-token"><span class="color-swatch color-swatch--primary"></span><strong>Primary</strong><code>#2563EB</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--primary-hover"></span><strong>Primary Hover</strong><code>#1D4ED8</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--primary-soft"></span><strong>Primary Soft</strong><code>#EFF6FF</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--background-alt"></span><strong>Background</strong><code>#F8FAFC</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--surface"></span><strong>Surface</strong><code>#FFFFFF</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--text"></span><strong>Text Primary</strong><code>#0F172A</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--text-secondary"></span><strong>Text Secondary</strong><code>#475569</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--border"></span><strong>Border</strong><code>#E2E8F0</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--success"></span><strong>Success</strong><code>#10B981</code></li>
+              <li class="color-token"><span class="color-swatch color-swatch--error"></span><strong>Error</strong><code>#EF4444</code></li>
+            </ul>
+          </div>
+
+          <div class="system-block design-panel" id="design-panel-tipografia" role="tabpanel" aria-labelledby="design-tab-tipografia" data-design-panel="tipografia" hidden>
+            <div class="visually-hidden">
+              <p class="system-block__index">02</p>
+              <h3 id="type-title">Tipografía</h3>
+            </div>
+            <div class="type-specimens">
+              <article class="type-specimen type-specimen--display"><p>Wilmer Espinoza.</p><span>Display / H1 · Plus Jakarta Sans · 56–88px · 800</span></article>
+              <article class="type-specimen type-specimen--h2"><p>Título de sección</p><span>H2 · Plus Jakarta Sans · 36–52px · 700</span></article>
+              <article class="type-specimen type-specimen--h3"><p>Proyecto destacado</p><span>H3 · Plus Jakarta Sans · 20px · 700</span></article>
+              <article class="type-specimen type-specimen--h4"><p>Categoría interna</p><span>H4 · Plus Jakarta Sans · 14px · 700</span></article>
+              <article class="type-specimen"><p>Texto principal para explicar ideas con claridad y buena legibilidad.</p><span>Body · Inter · 16px · 400</span></article>
+              <article class="type-specimen type-specimen--small"><p>Texto secundario y detalles de apoyo.</p><span>Small · Inter · 14px · 400</span></article>
+              <article class="type-specimen type-specimen--caption"><p>ETIQUETA EDITORIAL</p><span>Caption · Plus Jakarta Sans · 10px · 800</span></article>
+              <article class="type-specimen"><a class="text-link" href="#contacto">Enlace de texto</a><span>Link · Plus Jakarta Sans · 13.5px · 700</span></article>
+            </div>
+          </div>
+
+          <div class="system-block design-panel" id="design-panel-espaciado" role="tabpanel" aria-labelledby="design-tab-espaciado" data-design-panel="espaciado" hidden>
+            <div class="visually-hidden">
+              <p class="system-block__index">03</p>
+              <h3 id="spacing-title">Espaciado</h3>
+            </div>
+            <ul class="spacing-scale">
+              <li><code>--space-1</code><span class="spacing-bar spacing-bar--1"></span><strong>4px</strong></li>
+              <li><code>--space-2</code><span class="spacing-bar spacing-bar--2"></span><strong>8px</strong></li>
+              <li><code>--space-3</code><span class="spacing-bar spacing-bar--3"></span><strong>12px</strong></li>
+              <li><code>--space-4</code><span class="spacing-bar spacing-bar--4"></span><strong>16px</strong></li>
+              <li><code>--space-6</code><span class="spacing-bar spacing-bar--6"></span><strong>24px</strong></li>
+              <li><code>--space-8</code><span class="spacing-bar spacing-bar--8"></span><strong>32px</strong></li>
+              <li><code>--space-12</code><span class="spacing-bar spacing-bar--12"></span><strong>48px</strong></li>
+              <li><code>--space-16</code><span class="spacing-bar spacing-bar--16"></span><strong>64px</strong></li>
+            </ul>
+          </div>
+
+          <div class="system-block design-panel" id="design-panel-componentes" role="tabpanel" aria-labelledby="design-tab-componentes" data-design-panel="componentes" hidden>
+            <div class="visually-hidden">
+              <p class="system-block__index">04</p>
+              <h3 id="components-title">Componentes</h3>
+            </div>
+            <div class="component-grid">
+              <article class="component-demo">
+                <h4>Botones y enlace</h4>
+                <div class="component-demo__row">
+                  <button class="button button--primary" type="button">Primary Button</button>
+                  <button class="button button--secondary" type="button">Secondary Button</button>
+                  <button class="button button--primary" type="button" disabled>Disabled</button>
+                  <a class="text-link" href="#contacto">Text Link</a>
+                </div>
+              </article>
+              <article class="component-demo">
+                <h4>Skill Badge y filtros</h4>
+                <div class="component-demo__row">
+                  <span class="skill-badge">JavaScript</span>
+                  <button class="filter-button" type="button">Default</button>
+                  <button class="filter-button is-active" type="button" aria-pressed="true">Active</button>
+                </div>
+              </article>
+              <article class="component-demo">
+                <h4>Campos de formulario</h4>
+                <div class="form-field">
+                  <label for="ds-input">Input</label>
+                  <input id="ds-input" type="text" placeholder="Contenido de ejemplo">
+                </div>
+                <div class="form-field">
+                  <label for="ds-textarea">Textarea</label>
+                  <textarea id="ds-textarea" rows="3" placeholder="Contenido de ejemplo"></textarea>
+                </div>
+              </article>
+              <article class="component-demo">
+                <h4>Navegación y tema</h4>
+                <div class="component-demo__row component-demo__row--navigation">
+                  <a class="navbar__link" href="#design-system">Navigation Item</a>
+                  <button class="icon-button component-theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro">
+                    <svg class="theme-icon theme-icon--moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.8 15.3A9 9 0 0 1 8.7 3.2a9 9 0 1 0 12.1 12.1Z"/></svg>
+                    <svg class="theme-icon theme-icon--sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+                  </button>
+                  <span class="component-demo__caption">Theme Toggle</span>
+                </div>
+              </article>
+              <article class="component-demo component-demo--wide">
+                <h4>Project Card</h4>
+                <div class="project-card project-card--sample">
+                  <div class="project-card__sample-media" aria-hidden="true">Captura del proyecto</div>
+                  <div class="project-card__body">
+                    <p class="project-card__category">Web</p>
+                    <h3>Nombre del proyecto</h3>
+                    <p class="project-card__description">Descripción breve utilizando el componente real del portafolio.</p>
+                    <div class="project-card__actions"><button class="text-button" type="button">Más información</button></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto" aria-labelledby="contact-title">
+        <div class="container contact__layout">
+          <div class="contact__intro">
+            <p class="section-heading__eyebrow">06 — Contacto</p>
+            <h2 class="section-heading__title" id="contact-title">¿Creamos algo interesante?</h2>
+            <p class="section-heading__description">
+              Estoy interesado en seguir creando proyectos relacionados con desarrollo de
+              software, análisis de datos, tecnología educativa y soluciones digitales.
+            </p>
+            <p class="contact__social-label">Correo</p>
+            <a class="contact__email" href="mailto:wilmerespinoza315@gmail.com">wilmerespinoza315@gmail.com</a>
+            <p class="contact__social-label">También puedes encontrarme en</p>
+            <ul class="contact__socials" aria-label="Redes sociales de Wilmer Espinoza">
+              <li><a class="contact__social" href="https://github.com/Wilmer-Espinoza" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+              <li><a class="contact__social" href="https://www.linkedin.com/in/wilmer-espinoza/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+              <li><a class="contact__social" href="https://www.instagram.com/wilmerespinoza__/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></li>
+              <li><a class="contact__social" href="https://www.facebook.com/wilmer.ejo.n/" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form" data-contact-form novalidate>
+            <div class="form-field">
+              <label for="contact-name">Nombre</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" minlength="2" placeholder="Tu nombre completo" required aria-describedby="contact-name-error">
+              <span class="form-field__error" id="contact-name-error" data-error-for="name"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Correo electrónico</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="tu@correo.com" required aria-describedby="contact-email-error">
+              <span class="form-field__error" id="contact-email-error" data-error-for="email"></span>
+            </div>
+
+            <div class="form-field contact-form__full-row">
+              <label for="contact-subject">Asunto</label>
+              <input id="contact-subject" name="subject" type="text" minlength="3" placeholder="¿Sobre qué quieres escribirme?" required aria-describedby="contact-subject-error">
+              <span class="form-field__error" id="contact-subject-error" data-error-for="subject"></span>
+            </div>
+
+            <div class="form-field contact-form__full-row">
+              <label for="contact-message">Mensaje</label>
+              <textarea id="contact-message" name="message" rows="4" minlength="10" placeholder="Cuéntame sobre tu proyecto o idea..." required aria-describedby="contact-message-error"></textarea>
+              <span class="form-field__error" id="contact-message-error" data-error-for="message"></span>
+            </div>
+
+            <div class="contact-form__footer contact-form__full-row">
+              <div>
+                <button class="button button--primary contact-form__submit" type="submit">Enviar mensaje</button>
+                <p class="contact-form__note">Demostración académica: este formulario no envía información a un servidor.</p>
+              </div>
+              <p class="form-status" data-form-status aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__content container">
+        <div class="site-footer__brand">
+          <strong>Wilmer Espinoza</strong>
+          <small>Software Engineering</small>
+        </div>
+        <div class="site-footer__right">
+          <nav class="site-footer__nav" aria-label="Enlaces del pie de página">
+            <a href="https://github.com/Wilmer-Espinoza" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/wilmer-espinoza/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+          <p class="site-footer__copyright">© 2026 Wilmer Espinoza</p>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="project-modal"
+      data-project-modal
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="project-modal-title"
+      hidden
+    >
+      <article class="project-modal__dialog" role="document">
+        <button class="icon-button project-modal__close" type="button" data-modal-close aria-label="Cerrar detalles del proyecto">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+        <p class="project-modal__category" data-modal-category></p>
+        <h2 id="project-modal-title" data-modal-title></h2>
+        <p class="project-modal__subtitle" data-modal-subtitle></p>
+
+        <div class="project-modal__media" data-modal-media>
+          <figure class="project-modal__image-frame" data-modal-image-frame hidden>
+            <img data-modal-image alt="">
+          </figure>
+          <div class="project-modal__fallback" data-modal-fallback hidden aria-hidden="true"></div>
+          <div class="project-modal__video-frame" data-modal-video-frame hidden>
+            <p class="project-modal__media-label">Video del proyecto</p>
+            <video data-modal-video controls playsinline preload="metadata"></video>
+          </div>
+        </div>
+
+        <p class="project-modal__description" data-modal-description></p>
+
+        <div class="project-modal__details">
+          <section aria-labelledby="modal-problem-title">
+            <h3 id="modal-problem-title">Problema</h3>
+            <p data-modal-problem></p>
+          </section>
+          <section aria-labelledby="modal-solution-title">
+            <h3 id="modal-solution-title">Solución</h3>
+            <p data-modal-solution></p>
+          </section>
+        </div>
+
+        <section class="project-modal__section" aria-labelledby="modal-tech-title">
+          <h3 id="modal-tech-title">Tecnologías</h3>
+          <ul class="tag-list" data-modal-technologies></ul>
+        </section>
+
+        <section class="project-modal__section" aria-labelledby="modal-features-title">
+          <h3 id="modal-features-title" data-modal-features-title>Funcionalidades</h3>
+          <ul class="project-modal__feature-list" data-modal-features></ul>
+        </section>
+
+        <a class="button button--primary project-modal__link" data-modal-link target="_blank" rel="noopener noreferrer"></a>
+      </article>
+    </div>
+
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Volver al inicio" aria-hidden="true" tabindex="-1">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></svg>
+    </button>
+  </body>
+</html>
