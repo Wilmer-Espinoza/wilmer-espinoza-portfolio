@@ -1,32 +1,47 @@
-# Portafolio Personal — Wilmer Espinoza
+# Wilmer Espinoza
 
-Portafolio web personal desarrollado como proyecto académico para presentar mi perfil, habilidades y proyectos relacionados con ingeniería de software, desarrollo web, análisis de datos y tecnología educativa.
+### Portafolio personal · Ingeniería de Software
 
-## Objetivo
+Portafolio web desarrollado como proyecto académico para presentar mi perfil, intereses y algunos proyectos vinculados al desarrollo web, análisis de datos y tecnología educativa.
 
-Construir un sitio web semántico, accesible y responsive utilizando tecnologías web fundamentales, con una identidad visual consistente y componentes interactivos desarrollados sin frameworks.
+<p>
+  <a href="https://github.com/Wilmer-Espinoza">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/wilmer-espinoza/">LinkedIn</a> ·
+  <a href="mailto:wilmerespinoza315@gmail.com">wilmerespinoza315@gmail.com</a>
+</p>
 
-## Características
+---
 
-- Diseño responsive para escritorio, tablet y móvil.
-- Navegación sticky y menú móvil accesible.
-- Tema claro y oscuro con persistencia mediante `localStorage`.
-- Secciones de perfil, formación académica y habilidades.
-- Filtros de proyectos por categoría.
-- Modal reutilizable con detalles de cada proyecto.
-- Design System basado en los tokens y componentes reales del sitio.
-- Formulario con validación en JavaScript y simulación académica de envío.
-- Navegación activa mediante `IntersectionObserver`.
-- Botón para volver al inicio.
-- Soporte para teclado y preferencias de movimiento reducido.
+## En el sitio
+
+- Perfil académico y áreas de interés.
+- Habilidades organizadas por categoría.
+- Proyectos con recursos visuales, filtros y detalles en modal.
+- Tema claro y oscuro persistente.
+- Design System con tokens, componentes y tipografía.
+- Formulario de contacto con validación local.
+
+## Proyectos destacados
+
+| Proyecto | Enfoque |
+| --- | --- |
+| Sistema de Gestión Comercial AFU | Gestión comercial y seguimiento de ventas. |
+| SmartRecipe | Reconocimiento de ingredientes y recomendación de recetas. |
+| AFU Academic Insights | Visualización y análisis de datos académicos. |
 
 ## Tecnologías
 
-- HTML5
-- CSS3
-- JavaScript Vanilla
+`HTML5` · `CSS3` · `JavaScript Vanilla`
 
-No se utilizaron frameworks CSS o JavaScript, gestores de paquetes ni herramientas de compilación.
+El proyecto no utiliza frameworks, npm ni procesos de compilación.
+
+## Ejecutarlo localmente
+
+1. Abre esta carpeta en Visual Studio Code.
+2. Haz clic derecho sobre `index.html`.
+3. Selecciona **Open with Live Server**.
+
+También puedes abrir `index.html` directamente en el navegador, aunque Live Server facilita ver los cambios al guardar.
 
 ## Estructura
 
@@ -37,38 +52,15 @@ Portfolio/
 │   └── styles.css
 ├── js/
 │   └── script.js
-├── assets/
-│   ├── icons/
-│   │   └── favicon.svg
-│   └── images/
-│       ├── wilmer-profile.jpg
-│       └── projects/
-│           └── project-placeholder.svg
-├── README.md
-└── .gitignore
+└── assets/
+    ├── images/
+    └── icons/
 ```
 
-## Ejecución local
+## Estado
 
-1. Abrir la carpeta del proyecto en Visual Studio Code.
-2. Abrir `index.html` mediante la extensión Live Server.
-3. Navegar a la dirección local mostrada por Live Server.
+En desarrollo. El sitio está preparado para publicarse como página estática en GitHub Pages.
 
-El proyecto no necesita `npm`, instalación de dependencias ni proceso de compilación.
+---
 
-## GitHub Pages
-
-El sitio utiliza rutas relativas y está preparado para publicarse directamente con GitHub Pages.
-
-URL pública: pendiente de publicación.
-
-## Capturas
-
-Pendientes de agregar cuando existan capturas finales del portafolio y de los proyectos.
-
-## Autor
-
-Wilmer Espinoza
-
-- GitHub: https://github.com/Wilmer-Espinoza
-- Correo: wilmerespinoza315@gmail.com
+<sub>Wilmer Espinoza · Universidad Estatal de Milagro — UNEMI</sub>
