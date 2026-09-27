@@ -1,61 +1,39 @@
-<div align="center">
+# Portafolio Personal
 
-# Portafolio de Ingeniería de Software
+Portafolio web personal desarrollado como proyecto académico. Reúne información sobre mi perfil, habilidades y proyectos relacionados con desarrollo web, análisis de datos y tecnología educativa.
 
-**Desarrollo web · Datos · Soluciones digitales**
+## Proyectos destacados
 
-<a href="https://github.com/Wilmer-Espinoza">
-  <img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-</a>
-<a href="https://www.linkedin.com/in/wilmer-espinoza/">
-  <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="mailto:wilmerespinoza315@gmail.com">
-  <img src="https://img.shields.io/badge/Correo-475569?style=flat-square&logo=gmail&logoColor=white" alt="Correo electrónico">
-</a>
+- [Sistema de Gestión Comercial AFU](https://ventasafu.vercel.app/) — gestión comercial y seguimiento de ventas.
+- [SmartRecipe](https://github.com/Wilmer-Espinoza/RECETAI) — reconocimiento de ingredientes y recomendación de recetas.
+- [AFU Academic Insights](https://github.com/Wilmer-Espinoza/AFU-Academic-Insights) — visualización y análisis de datos académicos.
 
-</div>
+## Tecnologías
 
----
+- HTML5
+- CSS3
+- JavaScript Vanilla
 
-Portafolio web personal desarrollado como proyecto académico. Reúne mi perfil, intereses y proyectos relacionados con desarrollo web, análisis de datos y tecnología educativa.
+El sitio no utiliza frameworks, npm ni herramientas de compilación.
 
-## ✦ Explora el sitio
+## Incluye
 
-- **Perfil académico** y áreas de interés profesional.
-- **Habilidades** organizadas por categorías.
-- **Proyectos** con filtros, recursos visuales y detalles en modal.
-- **Tema claro y oscuro** con preferencia guardada.
-- **Design System** con tokens, tipografía y componentes reales.
-- **Contacto** con validación local y enlaces sociales.
+- Diseño responsive.
+- Tema claro y oscuro con persistencia en `localStorage`.
+- Menú móvil y navegación interna.
+- Filtros de proyectos y modales con información adicional.
+- Design System con tokens y componentes utilizados en el sitio.
+- Formulario de contacto con validación local.
 
-## ◌ Proyectos destacados
+## Ejecutarlo localmente
 
-| Proyecto | Enfoque | Enlace |
-| --- | --- | --- |
-| 🛒 **Sistema de Gestión Comercial AFU** | Gestión comercial y seguimiento de ventas. | [Ver proyecto ↗](https://ventasafu.vercel.app/) |
-| 🍽️ **SmartRecipe** | Reconocimiento de ingredientes y recomendación de recetas. | [Repositorio ↗](https://github.com/Wilmer-Espinoza/RECETAI) |
-| 📊 **AFU Academic Insights** | Visualización y análisis de datos académicos. | [Repositorio ↗](https://github.com/Wilmer-Espinoza/AFU-Academic-Insights) |
-
-## ⚙ Tecnologías
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
-</p>
-
-El proyecto utiliza HTML5, CSS3 y JavaScript Vanilla; no requiere frameworks, npm ni procesos de compilación.
-
-## ▶ Ejecutarlo localmente
-
-1. Abre esta carpeta en Visual Studio Code.
+1. Abre la carpeta del proyecto en Visual Studio Code.
 2. Haz clic derecho en `index.html`.
 3. Selecciona **Open with Live Server**.
 
-También puedes abrir `index.html` directamente en el navegador. Live Server facilita revisar los cambios al guardar.
+También se puede abrir `index.html` directamente en el navegador. No requiere instalar dependencias.
 
-## ⌘ Estructura
+## Estructura
 
 ```text
 Portfolio/
@@ -69,10 +47,10 @@ Portfolio/
     └── icons/
 ```
 
----
+## Contacto
 
-<div align="center">
+- GitHub: [Wilmer-Espinoza](https://github.com/Wilmer-Espinoza)
+- LinkedIn: [wilmer-espinoza](https://www.linkedin.com/in/wilmer-espinoza/)
+- Correo: [wilmerespinoza315@gmail.com](mailto:wilmerespinoza315@gmail.com)
 
-<sub>Proyecto académico · Universidad Estatal de Milagro — UNEMI</sub>
-
-</div>
+Proyecto académico · Universidad Estatal de Milagro — UNEMI
