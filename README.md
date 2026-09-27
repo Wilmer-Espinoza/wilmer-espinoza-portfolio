@@ -1,6 +1,10 @@
 # Portafolio Personal
 
-Portafolio web personal desarrollado como proyecto académico. Reúne información sobre mi perfil, habilidades y proyectos relacionados con desarrollo web, análisis de datos y tecnología educativa.
+Portafolio web personal desarrollado como proyecto académico. Presenta mi perfil, habilidades y proyectos relacionados con desarrollo web, análisis de datos y tecnología educativa.
+
+## Vista previa
+
+![Vista previa del portafolio de Wilmer Espinoza](assets/images/readme/portfolio-preview.png)
 
 ## Proyectos destacados
 
@@ -16,22 +20,22 @@ Portafolio web personal desarrollado como proyecto académico. Reúne informaci�
 
 El sitio no utiliza frameworks, npm ni herramientas de compilación.
 
-## Incluye
+## Funcionalidades
 
-- Diseño responsive.
-- Tema claro y oscuro con persistencia en `localStorage`.
-- Menú móvil y navegación interna.
-- Filtros de proyectos y modales con información adicional.
-- Design System con tokens y componentes utilizados en el sitio.
-- Formulario de contacto con validación local.
+- Diseño responsive para escritorio, tablet y móvil.
+- Menú móvil y navegación interna con scroll suave.
+- Tema claro y oscuro con persistencia mediante `localStorage`.
+- Filtros por categoría y modales de proyectos.
+- Design System con colores, tipografía, espaciado y componentes reutilizables.
+- Formulario de contacto con validación y simulación de envío.
 
 ## Ejecutarlo localmente
 
-1. Abre la carpeta del proyecto en Visual Studio Code.
-2. Haz clic derecho en `index.html`.
+1. Abre esta carpeta en Visual Studio Code.
+2. Haz clic derecho sobre `index.html`.
 3. Selecciona **Open with Live Server**.
 
-También se puede abrir `index.html` directamente en el navegador. No requiere instalar dependencias.
+También puedes abrir `index.html` directamente en el navegador. No requiere instalar dependencias.
 
 ## Estructura
 
