@@ -1,49 +1,61 @@
-# Wilmer Espinoza
+<div align="center">
 
-### Portafolio personal · Ingeniería de Software
+# Portafolio de Ingeniería de Software
 
-Portafolio web desarrollado como proyecto académico para presentar mi perfil, intereses y algunos proyectos vinculados al desarrollo web, análisis de datos y tecnología educativa.
+**Desarrollo web · Datos · Soluciones digitales**
 
-<p>
-  <a href="https://github.com/Wilmer-Espinoza">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/wilmer-espinoza/">LinkedIn</a> ·
-  <a href="mailto:wilmerespinoza315@gmail.com">wilmerespinoza315@gmail.com</a>
-</p>
+<a href="https://github.com/Wilmer-Espinoza">
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/wilmer-espinoza/">
+  <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:wilmerespinoza315@gmail.com">
+  <img src="https://img.shields.io/badge/Correo-475569?style=flat-square&logo=gmail&logoColor=white" alt="Correo electrónico">
+</a>
+
+</div>
 
 ---
 
-## En el sitio
+Portafolio web personal desarrollado como proyecto académico. Reúne mi perfil, intereses y proyectos relacionados con desarrollo web, análisis de datos y tecnología educativa.
 
-- Perfil académico y áreas de interés.
-- Habilidades organizadas por categoría.
-- Proyectos con recursos visuales, filtros y detalles en modal.
-- Tema claro y oscuro persistente.
-- Design System con tokens, componentes y tipografía.
-- Formulario de contacto con validación local.
+## ✦ Explora el sitio
 
-## Proyectos destacados
+- **Perfil académico** y áreas de interés profesional.
+- **Habilidades** organizadas por categorías.
+- **Proyectos** con filtros, recursos visuales y detalles en modal.
+- **Tema claro y oscuro** con preferencia guardada.
+- **Design System** con tokens, tipografía y componentes reales.
+- **Contacto** con validación local y enlaces sociales.
 
-| Proyecto | Enfoque |
-| --- | --- |
-| Sistema de Gestión Comercial AFU | Gestión comercial y seguimiento de ventas. |
-| SmartRecipe | Reconocimiento de ingredientes y recomendación de recetas. |
-| AFU Academic Insights | Visualización y análisis de datos académicos. |
+## ◌ Proyectos destacados
 
-## Tecnologías
+| Proyecto | Enfoque | Enlace |
+| --- | --- | --- |
+| 🛒 **Sistema de Gestión Comercial AFU** | Gestión comercial y seguimiento de ventas. | [Ver proyecto ↗](https://ventasafu.vercel.app/) |
+| 🍽️ **SmartRecipe** | Reconocimiento de ingredientes y recomendación de recetas. | [Repositorio ↗](https://github.com/Wilmer-Espinoza/RECETAI) |
+| 📊 **AFU Academic Insights** | Visualización y análisis de datos académicos. | [Repositorio ↗](https://github.com/Wilmer-Espinoza/AFU-Academic-Insights) |
 
-`HTML5` · `CSS3` · `JavaScript Vanilla`
+## ⚙ Tecnologías
 
-El proyecto no utiliza frameworks, npm ni procesos de compilación.
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
+</p>
 
-## Ejecutarlo localmente
+El proyecto utiliza HTML5, CSS3 y JavaScript Vanilla; no requiere frameworks, npm ni procesos de compilación.
+
+## ▶ Ejecutarlo localmente
 
 1. Abre esta carpeta en Visual Studio Code.
-2. Haz clic derecho sobre `index.html`.
+2. Haz clic derecho en `index.html`.
 3. Selecciona **Open with Live Server**.
 
-También puedes abrir `index.html` directamente en el navegador, aunque Live Server facilita ver los cambios al guardar.
+También puedes abrir `index.html` directamente en el navegador. Live Server facilita revisar los cambios al guardar.
 
-## Estructura
+## ⌘ Estructura
 
 ```text
 Portfolio/
@@ -57,10 +69,10 @@ Portfolio/
     └── icons/
 ```
 
-## Estado
-
-En desarrollo. El sitio está preparado para publicarse como página estática en GitHub Pages.
-
 ---
 
-<sub>Wilmer Espinoza · Universidad Estatal de Milagro — UNEMI</sub>
+<div align="center">
+
+<sub>Proyecto académico · Universidad Estatal de Milagro — UNEMI</sub>
+
+</div>
